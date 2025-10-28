@@ -3,6 +3,7 @@
 A simple deep learning project that classifies clothing images (such as T-shirts, trousers, shoes, and bags) using the Fashion MNIST dataset and a TensorFlow Keras model. This project also includes a Streamlit web app for interactive predictions.
 
 ## Project Structure
+```
 Fashion-MNIST-Project/
 │
 ├── app.py # Streamlit web app for predictions
@@ -17,6 +18,7 @@ Fashion-MNIST-Project/
     ├── model.py # Model architecture definition
     ├── train.py # Model training script
     └── utils.py # Helper functions (class names, preprocessing, etc.)
+```
 
 ## Model Summary
 The classifier uses a simple fully connected neural network:
